@@ -55,3 +55,5 @@ it  creates a data base based on the MAC of the orange pi  in the influxdb -  th
 
 you can use one orange pi zero as the influxdb server  and other as one as remote nodes  just edit  Sendinflux.pl to have the ip or domain of the  remote location
  these remotes will be  based on thier MAC so  there will not be any data overlapping - every thing is automactic and in new MQTT ot nodes will automatically add it data to the influxdb..
+
+if you have issue you can let me know here https://community.openenergymonitor.org/t/orange-pi-zero-iot-mqtt-monitor-with-onboard-influxdb-chronograf-and-kapacitor/9572

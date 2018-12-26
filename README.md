@@ -5,6 +5,7 @@ to conserve space i left out  influx software
  just ssh in 169.254.10.250 ( or use the dhcp assigned address from your router)
  ssh root@169.254.10.250 ( blank password)
  and install influxdb ( using 1.6.2  as they change something in the new version that made it incompatable for some reason)
+ ( i forgot install ca-bundle ca-certificates on image please install first then run ) 
  
  wget https://dl.influxdata.com/influxdb/releases/influxdb-1.6.2_linux_armhf.tar.gz
 

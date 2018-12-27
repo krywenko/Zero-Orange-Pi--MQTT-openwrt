@@ -44,6 +44,7 @@ but if if you do not use at least one that matches the host name of the device -
 the openwrt statistics but they will be captured and sent to influxdb 
 
 mosquitto_pub -t 'incoming/Garage/mqtt-Pressure/pressure-heatpump' -m 'N:21.5'`
+
 mqtt-Energy, mqtt-Temp, mqtt-Flow and mqtt-Pressure  are the the current fixed catagories for displaying in openwrt.
 you will need to use one of these unless you add in your own catagory- the only prequisite is that it starts with mqtt-XXXXX
 
